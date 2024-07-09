@@ -74,6 +74,8 @@ Below is a collection of screenshots showing the mentioned features.
 ![The user can ask any questions](images/answer-user-open-question.png)
 *For example, the user can ask question about terminologies before proceeding to the next exercise question*
 
+Return to [table of contents](#table-of-contents)
+
 ## Main components
 The figure below shows the main components of PMTutor: Document databases and cloud object storage form a content layer enabling 
 PMTutor to offer project management learning content. PMTutor engine is the core chatbot component augmented by webhook 
@@ -150,6 +152,8 @@ effective organization of supportive information in addition to a chat view.
 
 Visit the repository of [React UI](https://github.com/erasmus-chatlearn/pmtutor-react-ui).
 
+Return to [table of contents](#table-of-contents)
+
 ## Steps for setting up your PMTutor system
 This section provides steps for setting up the latest version of PMTutor system from content layer to UI layer using the 
 same cloud services used by the project.
@@ -167,6 +171,8 @@ same cloud services used by the project.
 Remember to update the cloud service environment variables with the credentials you received from the service providers!
 For further information about the required cloud resources, please consult their respective providers and documentations.
 
+Return to [table of contents](#table-of-contents)
+
 ## License
 PMTutor configurations and software code developed by this project are licensed under MIT.
 
@@ -175,3 +181,5 @@ Please refer to their documentation for more information.
 
 ## References
 1. Peng, H., Ma, S., & Spector, J. M. (2019). Personalized adaptive learning: An emerging pedagogical approach enabled by a smart learning environment. Smart Learning Environments, 6, Article 9. https://doi.org/10.1186/s40561-019-0089-y
+
+Return to [table of contents](#table-of-contents)
