@@ -1,5 +1,5 @@
 # Introduction to Erasmus+ ChatLearn PMTutor
-This repository introduces PMTutor, a tutoring chatbot prototype offering personalized adaptive learning features. 
+This repository introduces PMTutor, a configurable tutoring chatbot prototype offering personalized adaptive learning features. 
 It leverages rule-based and generative artificial intelligence (AI), was developed for project management training in higher education
 by Erasmus+ ChatLearn project during 1.2.2022 to 31.7.2024. The project consists of members from University of Oulu (Finland), WU Vienna (Austria), 
 Politecnico di Milano (Italy), and Reykjavik University (Iceland). Learn more about [Erasmus+ ChatLearn project](https://www.oulu.fi/en/projects/personalized-project-management-learning-chatbots).
@@ -47,6 +47,32 @@ Users can ask PMTutor to recommend learning topics based on their self assessmen
 receive custom feedback based on their performance. They can request a summary of topic exercises they have done,
 select or resume an incomplete exercise. Additionally, PMTutor can answer questions beyond its rule-based scope, thus
 better serve the need of different learners. The design of these features were inspired by Peng et al. (2019).
+
+Below is a collection of screenshots showing the mentioned features.
+
+![A new user is invited to do self-assessment survey](images/self-assessment-survey.png)
+*A new user will be invited to do a self-assessment survey*
+
+![Topic recommendation](images/topic-recommendation.png)
+*After completing the survey, the user can ask for topic recommendation&mdash;the recommendation will be updated based on the user's future self-assessment*
+
+![Custom feedback during an exercise](images/custom-feedback-1.png)
+*The user receives custom feedback based on whether her answer is correct*
+
+![Recommeded learing material during an exercise](images/custom-feedback-2.png)
+*The user will be suggested to check out a relevant learning material if she answers incorrectly more than once*
+
+![The user can resume incomplete exercises from the previous session](images/resume-exercise.png)
+*The user can resume started exercises which were incomplete in the previous session*
+
+![The user can see a summary of completed and incomplete exercises](images/exercise-summary.png)
+*The user can request to see a list of completed and incomplete topic exercises*
+
+![The user can select an incomplete exercise](images/select-incomplete-exercise.png)
+*The user can request to select an incomplete exercise*
+
+![The user can ask any questions](images/answer-user-open-question.png)
+*For example, the user can ask question about terminologies before proceeding to the next exercise question*
 
 ## Main components
 The figure below shows the main components of PMTutor: Document databases and cloud object storage form a content layer enabling 
